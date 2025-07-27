@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Godaesil Logistics: Fast, reliable, and professional logistics and delivery services across Nigeria. Door-to-door, express, and temperature-controlled transport." />
+    <meta name="keywords" content="logistics, delivery, Nigeria, transport, express, warehousing, supply chain" />
+    <meta name="author" content="Godaesil Logistics" />
     <title>Godaesil Logistics | Deliver Shipments, Goods and Products</title>
 
     <!-- 
@@ -35,13 +39,13 @@
     - #HEADER
   -->
 
-    <header class="header" data-header>
+    <header class="header" data-header role="banner">
       <div class="container">
         <h1>
           <a href="#" class="logo">Godaesil Logistics </a>
         </h1>
 
-        <nav class="navbar" data-navbar>
+        <nav class="navbar" data-navbar aria-label="Main Navigation">
           <div class="navbar-top">
             <a href="#" class="logo">Godaesil Logistics</a>
 
@@ -96,7 +100,7 @@
           </ul>
         </nav>
 
-        <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler type="button">
           <ion-icon name="menu-outline"></ion-icon>
         </button>
 
@@ -104,7 +108,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <article>
         <!-- 
         - #HERO
@@ -115,20 +119,21 @@
           aria-label="home"
           id="home"
           style="background-image: url('./assets/images/hero-banner.jpg')"
+          role="region"
         >
           <div class="container">
             <div class="hero-content">
-              <h2 class="h1 hero-title">
-                <span class="span">From point A to point B</span>faster than<span> ever before.</span>
-              </h2>
+
+              <h1 class="h1 hero-title">
+                <span class="span">From point A to point B</span> faster than <span>ever before.</span>
+              </h1>
+
 
               <p class="hero-text">
-                Experience the best means of transport for your products and
-                services. Send anything to anywhere in nigeria, safely and
-                quickly, with us.
+                Experience the best means of transport for your products and services. Send anything to anywhere in Nigeria, safely and quickly, with us.
               </p>
 
-              <a href="#service" class="btn-outline">View Services</a>
+              <a href="#service" class="btn-outline" aria-label="View our services">View Services</a>
 
               <!-- <img
                 src="./assets/images/hero-shape.png"
@@ -153,36 +158,39 @@
         - #ABOUT
       -->
 
-        <section class="section about" id="about" aria-label="about">
+        <section class="section about" id="about" aria-label="about" role="region">
           <div class="container">
             <figure
               class="about-banner img-holder"
               style="--width: 400; --height: 720"
             >
+
               <img
                 src="./assets/images/about-banner.jpg"
                 width="600"
                 height="720"
                 loading="lazy"
-                alt=""
+                alt="Logistics team at work"
                 class="img-cover"
               />
+
 
               <img
                 src="./assets/images/about-shape-1.png"
                 width="260"
                 height="170"
                 loading="lazy"
-                alt=""
+                alt="Decorative shape"
                 class="abs-img abs-img-1"
               />
+
 
               <img
                 src="./assets/images/about-shape-2.png"
                 width="500"
                 height="500"
                 loading="lazy"
-                alt=""
+                alt="Decorative shape"
                 class="abs-img abs-img-2"
               />
             </figure>
@@ -289,7 +297,7 @@
         - #SERVICE
       -->
 
-        <section class="section service" id="service" aria-label="service">
+        <section class="section service" id="service" aria-label="service" role="region">
           <div class="container">
             <p class="section-subtitle">All Services</p>
 
@@ -310,7 +318,7 @@
                       width="80"
                       height="60"
                       loading="lazy"
-                      alt="Truck"
+                      alt="Truck icon"
                     />
                   </div>
 
@@ -335,7 +343,7 @@
                       width="74"
                       height="60"
                       loading="lazy"
-                      alt="Ship"
+                      alt="Ship icon"
                     />
                   </div>
 
@@ -367,7 +375,7 @@
                       width="60"
                       height="60"
                       loading="lazy"
-                      alt="Airplane"
+                      alt="Airplane icon"
                     />
                   </div>
 
@@ -399,7 +407,7 @@
                       width="50"
                       height="60"
                       loading="lazy"
-                      alt="Train"
+                      alt="Train icon"
                     />
                   </div>
 
@@ -431,7 +439,7 @@
                       width="63"
                       height="60"
                       loading="lazy"
-                      alt="Trolley"
+                      alt="Trolley icon"
                     />
                   </div>
 
@@ -474,7 +482,7 @@
                 src="./assets/images/newsletter-banner.png"
                 width="303"
                 height="381"
-                alt="newsletter banner"
+                alt="Newsletter banner with delivery illustration"
                 class="w-100"
               />
             </figure>
@@ -514,38 +522,35 @@
     - #FOOTER
   -->
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="container">
         <div class="footer-top section">
           <div class="footer-brand">
-            <a href="#" class="logo">Godaesil Logistics</a>
+            <a href="#" class="logo" aria-label="Godaesil Logistics homepage">Godaesil Logistics</a>
 
             <p class="footer-text">
               Many desktop publishing packages and web page editors now use are
               dolra Ipsum as their default.
             </p>
 
-            <ul class="social-list">
+            <ul class="social-list" aria-label="Social media links">
               <li>
-                <a href="#" class="social-link">
+                <a href="#" class="social-link" aria-label="Facebook">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
               </li>
-
               <li>
-                <a href="#" class="social-link">
+                <a href="#" class="social-link" aria-label="Twitter">
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
               </li>
-
               <li>
-                <a href="#" class="social-link">
+                <a href="#" class="social-link" aria-label="Instagram">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
               </li>
-
               <li>
-                <a href="#" class="social-link">
+                <a href="#" class="social-link" aria-label="YouTube">
                   <ion-icon name="logo-youtube"></ion-icon>
                 </a>
               </li>
@@ -590,7 +595,7 @@
         </div>
 
         <div class="footer-bottom">
-          <p class="copyright">&copy;<span id="currentYear"></span>Godaesil Logistics.</p>
+          <p class="copyright">&copy;<span id="currentYear"></span> Godaesil Logistics.</p>
         
         </div>
 
@@ -608,6 +613,8 @@
       class="back-top-btn"
       aria-label="Back to top"
       data-back-top-btn
+      role="button"
+      tabindex="0"
     >
       <ion-icon name="chevron-up"></ion-icon>
     </a>
@@ -615,7 +622,15 @@
     <!-- 
     - custom js link
   -->
+
     <script src="./assets/js/script.js" defer></script>
+    <script>
+      // Set current year automatically
+      document.addEventListener('DOMContentLoaded', function() {
+        var yearSpan = document.getElementById('currentYear');
+        if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+      });
+    </script>
 
     <!-- 
     - ionicon link
