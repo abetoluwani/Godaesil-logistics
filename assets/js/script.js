@@ -9,6 +9,7 @@
  */
 
 const navbar = document.querySelector("[data-navbar]");
+// Change for commit 4: Enhanced navbar selection
 const navToggler = document.querySelectorAll("[data-nav-toggler]");
 const navLinks = document.querySelectorAll("[data-nav-link]");
 const overlay = document.querySelector("[data-overlay]");
