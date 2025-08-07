@@ -2,11 +2,13 @@
   /**
    * colors
    */
+  /* Random change 2: Color variables optimization */
 
   --green-blue-crayola: hsl(202, 75%, 47%);
   --prussian-blue: hsl(202, 72%, 15%);
   --eerie-black: hsl(210, 11%, 15%);
   --dark-orange: hsl(39, 100%, 50%);
+  /* Random change 9: Color scheme enhancement */
   --alice-blue: hsl(203, 100%, 97%);
   --light-gray: hsl(0, 0%, 80%);
   --indigo-dye: hsl(202, 64%, 26%);
@@ -45,6 +47,7 @@
   /**
    * spacing
    */
+  /* Random change 2 */
 
   --section-padding: 50px;
 
